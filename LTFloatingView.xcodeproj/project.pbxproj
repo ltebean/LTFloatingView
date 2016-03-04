@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAFD73B91C89217D001AA1C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD73B81C89217D001AA1C0 /* main.m */; };
+		FAFD73BC1C89217D001AA1C0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD73BB1C89217D001AA1C0 /* AppDelegate.m */; };
+		FAFD73BF1C89217D001AA1C0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD73BE1C89217D001AA1C0 /* ViewController.m */; };
+		FAFD73C21C89217D001AA1C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFD73C01C89217D001AA1C0 /* Main.storyboard */; };
+		FAFD73C41C89217D001AA1C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAFD73C31C89217D001AA1C0 /* Assets.xcassets */; };
+		FAFD73C71C89217D001AA1C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAFD73C51C89217D001AA1C0 /* LaunchScreen.storyboard */; };
+		FAFD73D01C892196001AA1C0 /* LTFloatingView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAFD73CF1C892196001AA1C0 /* LTFloatingView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAFD73B41C89217D001AA1C0 /* LTFloatingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTFloatingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAFD73B81C89217D001AA1C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAFD73BA1C89217D001AA1C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAFD73BB1C89217D001AA1C0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAFD73BD1C89217D001AA1C0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAFD73BE1C89217D001AA1C0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAFD73C11C89217D001AA1C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAFD73C31C89217D001AA1C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAFD73C61C89217D001AA1C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAFD73C81C89217D001AA1C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFD73CE1C892196001AA1C0 /* LTFloatingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTFloatingView.h; sourceTree = "<group>"; };
+		FAFD73CF1C892196001AA1C0 /* LTFloatingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTFloatingView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAFD73B11C89217D001AA1C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAFD73AB1C89217D001AA1C0 = {
+			isa = PBXGroup;
+			children = (
+				FAFD73B61C89217D001AA1C0 /* LTFloatingView */,
+				FAFD73B51C89217D001AA1C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAFD73B51C89217D001AA1C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAFD73B41C89217D001AA1C0 /* LTFloatingView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAFD73B61C89217D001AA1C0 /* LTFloatingView */ = {
+			isa = PBXGroup;
+			children = (
+				FAFD73CE1C892196001AA1C0 /* LTFloatingView.h */,
+				FAFD73CF1C892196001AA1C0 /* LTFloatingView.m */,
+				FAFD73BA1C89217D001AA1C0 /* AppDelegate.h */,
+				FAFD73BB1C89217D001AA1C0 /* AppDelegate.m */,
+				FAFD73BD1C89217D001AA1C0 /* ViewController.h */,
+				FAFD73BE1C89217D001AA1C0 /* ViewController.m */,
+				FAFD73C01C89217D001AA1C0 /* Main.storyboard */,
+				FAFD73C31C89217D001AA1C0 /* Assets.xcassets */,
+				FAFD73C51C89217D001AA1C0 /* LaunchScreen.storyboard */,
+				FAFD73C81C89217D001AA1C0 /* Info.plist */,
+				FAFD73B71C89217D001AA1C0 /* Supporting Files */,
+			);
+			path = LTFloatingView;
+			sourceTree = "<group>";
+		};
+		FAFD73B71C89217D001AA1C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAFD73B81C89217D001AA1C0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAFD73B31C89217D001AA1C0 /* LTFloatingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAFD73CB1C89217D001AA1C0 /* Build configuration list for PBXNativeTarget "LTFloatingView" */;
+			buildPhases = (
+				FAFD73B01C89217D001AA1C0 /* Sources */,
+				FAFD73B11C89217D001AA1C0 /* Frameworks */,
+				FAFD73B21C89217D001AA1C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LTFloatingView;
+			productName = LTFloatingView;
+			productReference = FAFD73B41C89217D001AA1C0 /* LTFloatingView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAFD73AC1C89217D001AA1C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = ltebean;
+				TargetAttributes = {
+					FAFD73B31C89217D001AA1C0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = FAFD73AF1C89217D001AA1C0 /* Build configuration list for PBXProject "LTFloatingView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAFD73AB1C89217D001AA1C0;
+			productRefGroup = FAFD73B51C89217D001AA1C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAFD73B31C89217D001AA1C0 /* LTFloatingView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAFD73B21C89217D001AA1C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFD73C71C89217D001AA1C0 /* LaunchScreen.storyboard in Resources */,
+				FAFD73C41C89217D001AA1C0 /* Assets.xcassets in Resources */,
+				FAFD73C21C89217D001AA1C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAFD73B01C89217D001AA1C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAFD73BF1C89217D001AA1C0 /* ViewController.m in Sources */,
+				FAFD73BC1C89217D001AA1C0 /* AppDelegate.m in Sources */,
+				FAFD73D01C892196001AA1C0 /* LTFloatingView.m in Sources */,
+				FAFD73B91C89217D001AA1C0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAFD73C01C89217D001AA1C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFD73C11C89217D001AA1C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAFD73C51C89217D001AA1C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAFD73C61C89217D001AA1C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAFD73C91C89217D001AA1C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAFD73CA1C89217D001AA1C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAFD73CC1C89217D001AA1C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LTFloatingView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.ltebean.LTFloatingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAFD73CD1C89217D001AA1C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LTFloatingView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.ltebean.LTFloatingView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAFD73AF1C89217D001AA1C0 /* Build configuration list for PBXProject "LTFloatingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFD73C91C89217D001AA1C0 /* Debug */,
+				FAFD73CA1C89217D001AA1C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAFD73CB1C89217D001AA1C0 /* Build configuration list for PBXNativeTarget "LTFloatingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAFD73CC1C89217D001AA1C0 /* Debug */,
+				FAFD73CD1C89217D001AA1C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAFD73AC1C89217D001AA1C0 /* Project object */;
+}
