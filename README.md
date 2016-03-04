@@ -12,7 +12,7 @@ self.floatingView = [[LTFloatingView alloc] initWithFrame:CGRectMake(0, 0, CGRec
 [self.view addSubview:self.floatingView];
 
 ```
-Or you can directly put it the storyboard.
+Or you can directly put it in the storyboard.
 
 #### 2. Config the floating view
 
